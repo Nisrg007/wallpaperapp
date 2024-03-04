@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpiderManWallPaper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="set_wallpaper">SpiderMan Wallpapers</string>
+    <string name="app_id">ca-app-pub-1551156846680522~4694733643</string>
+    <string name="interstitial_ad_id">ca-app-pub-1551156846680522/1522264067</string>
+</resources>

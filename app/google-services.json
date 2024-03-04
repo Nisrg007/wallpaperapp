@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "709553605192",
+    "project_id": "spidermanwallpaper-74b93",
+    "storage_bucket": "spidermanwallpaper-74b93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709553605192:android:6bd7680f86da98d89da67d",
+        "android_client_info": {
+          "package_name": "com.tooglamtogivedamn.spidermanwallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709553605192-nukb20e25hfrjp0slhchvotd0ubohass.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ5bCZl-7WiQknOW75v9AlKJ3iydxEUqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709553605192-nukb20e25hfrjp0slhchvotd0ubohass.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

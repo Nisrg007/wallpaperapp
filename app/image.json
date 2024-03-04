@@ -1,0 +1,23 @@
+[
+        {
+            "name":"img1",
+            "url": "https://cdn.statically.io/gh/andi235455/spider-man-wallpaper/main/2.webp"
+
+        },
+        {
+            "name":"img2",
+            "url": "https://cdn.statically.io/gh/andi235455/spider-man-wallpaper/main/3.webp"
+        },
+        {
+            "name":"img3",
+            "url": "https://cdn.statically.io/gh/andi235455/spider-man-wallpaper/main/4.webp"
+        },
+        {
+            "name":"img4",
+            "url": "https://cdn.statically.io/gh/andi235455/spider-man-wallpaper/main/5.webp"
+        },
+        {
+            "name":"img5",
+            "url": "https://cdn.statically.io/gh/andi235455/spider-man-wallpaper/main/1.webp"
+        }
+    ]

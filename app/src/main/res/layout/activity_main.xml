@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/toolbar"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar"
+        android:elevation="2dp"
+        android:fontFamily="@font/amethysta"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/cust2">
+
+        <TextView
+            android:id="@+id/toolbarTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/amethysta"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:maxLines="1"
+            android:text="Spiderman Wallpapers"
+            android:textAppearance="@android:style/TextAppearance.WindowTitle"
+            android:textColor="@color/cust2"
+            android:textSize="21sp"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="14dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:layout_constraintVertical_bias="0.5">
+
+
+            <TextView
+                android:id="@+id/toolbarTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:layout_weight="1"
+                android:elevation="2dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/amethysta"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Categories"
+                android:textAppearance="@android:style/TextAppearance.WindowTitle"
+                android:textColor="@color/cust2"
+                android:textSize="20sp"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="14dp" />
+
+            <TextView
+                android:id="@+id/realistic"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_textview"
+                android:drawableLeft="@drawable/realistic"
+                android:elevation="4dp"
+                android:fontFamily="@font/amethysta"
+                android:gravity="center"
+                android:text="Realistic\n(65)"
+                android:textColor="#7C4DFF"
+                android:drawablePadding="-41dp"
+                android:textStyle="bold"
+                android:paddingLeft="11dp"
+
+                app:drawableLeftCompat="@drawable/realistic" />
+
+            <TextView
+                android:id="@+id/anime"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                app:drawableLeftCompat="@drawable/anime"
+                android:background="@drawable/bg_textview"
+                android:elevation="4dp"
+                android:fontFamily="@font/amethysta"
+                android:gravity="center"
+                android:text="Anime\n(303)"
+                android:textColor="#7C4DFF"
+                android:drawablePadding="-41dp"
+                android:textStyle="bold"
+                android:paddingLeft="11dp"
+
+                />
+
+            <TextView
+                android:id="@+id/blackSpidy"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/bg_textview"
+                android:drawableLeft="@drawable/ic_blck"
+                android:drawablePadding="-41dp"
+                android:elevation="4dp"
+                android:fontFamily="@font/amethysta"
+                android:gravity="center"
+                android:paddingLeft="11dp"
+                android:text="Black-Spidy\n(33)"
+                android:textColor="#7C4DFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

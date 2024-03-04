@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/cust2">
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set as Wallpaper"
+        android:gravity="center"
+        android:textColor="@color/cust7"
+        android:fontFamily="@font/amethysta"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSetWallpaperHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set as Home Screen Wallpaper"
+        android:layout_marginTop="16dp"
+        android:onClick="onSetWallpaperHomeClicked" />
+
+    <Button
+        android:id="@+id/btnSetWallpaperLock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set as Lock Screen Wallpaper"
+        android:layout_marginTop="16dp"
+
+        android:onClick="onSetWallpaperLockClicked" />
+
+</LinearLayout>
